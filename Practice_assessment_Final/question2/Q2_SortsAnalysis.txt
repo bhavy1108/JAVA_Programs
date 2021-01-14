@@ -1,0 +1,42 @@
+
+Insertion Sort					
+
+Data Size  | Best Case | Worst Case | Average Case
+           |           |            |     
+           |           |            |    
+           |           |            |    
+           |           |            |    
+
+Discussion :
+
+
+ShellSort	
+				
+Data Size  | Best Case | Worst Case | Average Case
+           |           |            |     
+           |           |            |    
+           |           |            |    
+           |           |            |    
+
+
+
+/*****************************************************
+ *  self cited from practical 9 noteSorts..txt 
+ *  it has been modified according to the exam question
+ *  Date : 17/11/2020
+ ******************************************************/
+   QUICKSORT
+    
+    ascending -  To execute quick sort in ascending order, integer 2 has been used and the performance of this execution is 0.0
+    
+    
+    descending -To execute quick sort in descending order, integer 2 has been used and the performance of this execution is 0.6666666666666666
+
+    
+    in random order - To execute quick sort in ascending order, integer 2 has been used and the performance of this execution is 1.6666666666666667
+    
+    
+    nearly Sorted -  To execute quick sort in nearly sorted order, integer 2 has been used and there is no  performance for this execution as array has not been sorted at element 3.
+    
+    
+    CONCLUSION : Quick Sort ascending is more effective in terms of performance when using integer 2 as the time taken to execute the sorting is more accurate.

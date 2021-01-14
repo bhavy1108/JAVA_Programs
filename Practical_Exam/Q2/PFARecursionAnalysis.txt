@@ -1,0 +1,57 @@
+Question 2
+==========
+Student Name: Seenarain Bhavyattaa
+Student ID: 19871253
+
+====================
+Iterative Factorial
+
+Input data = 4
+solution = 24 
+
+ performance : when we use iterative way to implement a code we are more vulnerable to unexpected errors  as iterative is complex. However , iterative forms are more accurate than recursive , as loops execute faster than recursion.
+
+Discussion : Iterative Factorial  are made up of repeating loops and repeatedly execute lines of code .
+Iterative Factorial has a time complexity of O(n).
+
+====================
+Recursive Factorial
+
+Input data = 4
+solution = 24
+
+ performance : Recursion is more simplified and idented way to reach the same result as the iterative form.
+
+Discussion : Recursive factorial calls itself to executes lines of code whereby avoiding creating infinite loops . 
+Recursive factorial has a time complexity of O(n).
+However, recursion cannot be beneficial when it comes to stack overflow ,this occurs when recursion goes too deep to solve a program.
+====================
+Iterative Fibonacci
+
+Input data = 10
+solution = 55
+ performance : when we use iterative way to implement a code we are more vulnerable to unexpected errors as fibonacci is a bit more complicated than factorial .
+
+
+Discussion : Iterative is  more flexible as it is less expensive to change scope. Furthermore, it is easier to test and debug when there is a small iteration.Also, iterative fibonacci  has a time complexity of O(n). 
+
+====================
+Recursive Fibonacci
+
+Input data = 10
+ solution =55
+ 
+ performance: As mention above recursive is much more better than iterative ,when it comes to simplified and an a better idented way. Recursive can also be a cons when it comes to defficult debugging and when we have to trace values with each step of recursion .
+
+Discussion : Recursive Fibonacci has a time complexity of O(2^n). To be able to changed it from O(2^n) to O(n) we need to add a cache . which we are going to implement in the previous question
+
+====================
+Recursive Fibonacci (with solution caching)
+
+Input data = 4
+solution = 3
+
+ performance : Recursive fibonacci with  solution caching is more accurate than recursive without caching.
+
+Discussion : This recursive changes the time complexity from   O(2^n) to O(n)
+
