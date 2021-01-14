@@ -1,0 +1,11 @@
+i)
+According to the above illustration one can conclude that the height of 2-3-4 tree is the 
+smallest.Also, it is the fastest one compared to the others.However BST has the longest 
+height, thus takes much more pass for traversal.
+
+
+ii)
+Despite the fact that the height of the 2-3-4 tree is smaller, it is the only one wich has the longest
+code to implement as their are several numbers to several nodes. Whereas, the BST is easier to code as we
+only need to compare if, a number is bigger or smaller compared to the root node. When comparing, the number 
+is swap between the right or the left node accordingly.

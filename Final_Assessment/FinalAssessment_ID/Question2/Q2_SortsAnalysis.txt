@@ -1,0 +1,83 @@
+
+Insertion Sort					
+
+Data Size  | Best Case    | Worst Case          | Average Case
+      2    |   O(n) - 0.0 |    O(n2) - 0.0      |     O(n2) - 0.0
+     20    |   O(n) - 0.0 |    O(n2) - 3.0      |     O(n2) - 0.666666666
+    200    |   O(n) - 4.0 |    O(n2) - 375.6667 |     O(n2) - 20.0 
+           	              
+Discussion :
+ 
+Data size 2:
+
+Ascending -  the performance of data size 2 is 0.0 which is very accurate. 
+
+descending - the performance of data size 2 is 0.0 which is very accurate .
+
+random order- the performance of data size 2 is 0.3333333333 which is mostly accurate.
+
+nearly sorted - the performance of data size 2 is 0.0 which is very accurate. 
+
+Data size 20:
+
+Ascending -  the performance of data size 20 is 0.0 which is very accurate. 
+
+descending - the performance of data size 20 is 3.0 which is not soo accurate .
+
+random order- the performance of data size 20 is 3.0 which is not soo accurate
+
+nearly sorted - the performance of data size 2 is 0.6666666 which is very accurate. 
+
+Data size 200:
+
+Ascending -  the performance of data size 20 is 4.0 which is very accurate. 
+
+descending - the performance of data size 20 is 375.66667 which is not accurate.
+
+random order- the performance of data size 20 is 175.0 which is not accurate
+
+nearly sorted - the performance of data size 2 is 20.0 which is not accurate.
+
+
+ShellSort	
+				
+Data Size  | Best Case    | Worst Case | Average Case
+       2   | O(nlogn)     |   O(n2)    |    O(nlog2n) 
+       20  | O(nlogn)     |   O(n2)    |    O(nlog2n)  
+       200 | O(nlogn)     |   O(n2)    |    O(nlog2n) 
+                     |    
+
+
+quickSort 
+
+
+Data Size  | Best Case | Worst Case | Average Case
+      2    |  O(nlogn) |  O(n2)     |  O(nlogn)   
+     20    |  O(nlogn) |  O(n2)     |  O(nlogn)  
+    200    |  O(nlogn) |  O(n2)     |  O(nlogn)  
+           |           |            |    
+
+
+
+/*****************************************************
+ *  self cited from practical 9 noteSorts..txt 
+ *  it has been modified according to the exam question
+ *  Date : 17/11/2020
+ ******************************************************/
+ 
+ 
+   QUICKSORT
+    
+    ascending -  To execute quick sort in ascending order, integer 2 has been used and the performance of this execution is 0.0
+    
+    
+    descending -To execute quick sort in descending order, integer 2 has been used and the performance of this execution is 0.6666666666666666
+
+    
+    in random order - To execute quick sort in ascending order, integer 2 has been used and the performance of this execution is 1.6666666666666667
+    
+    
+    nearly Sorted -  To execute quick sort in nearly sorted order, integer 2 has been used and there is no  performance for this execution as array has not been sorted at element 3.
+    
+    
+    CONCLUSION : Quick Sort ascending is more effective in terms of performance when using integer 2 as the time taken to execute the sorting is more accurate.
