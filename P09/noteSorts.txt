@@ -1,0 +1,38 @@
+//reference: Seenrain.B.(2020).DSA1/P01/sorts.java[unpublished manuscript].Curtin Mauritius University
+
+    PRACTICAL 10 - QuickSorts And MergeSorts 
+    
+    
+    Note and Discuss the performance of the 4 implementation (above)
+    
+    
+    
+    MERGESORT
+    
+    ascending - To execute merge sort in ascending order, integer 10 has been used and the performance of this execution is 16.0
+    
+    descending - To execute merge sort in descending order, integer 10 has been used and the performance of this execution is 15.333333333333334
+    
+    in random order- To execute merge sort in random order, integer 10 has been used and the performance of this execution is 25.0
+    
+    nearly Sorted - To execute merge sort in nearly sorted order, integer 10 has been used and the performance of this execution is 16.333333333333332
+    
+    CONCLUSION - Merge sort descending is more effective in terms of performance when using integer 10 as the time taken to execute the sorting is more accurate.
+    
+    
+      
+    QUICKSORT
+    
+    ascending -  To execute quick sort in ascending order, integer 2 has been used and the performance of this execution is 0.0
+    
+    
+    descending -To execute quick sort in descending order, integer 2 has been used and the performance of this execution is 0.6666666666666666
+
+    
+    in random order - To execute quick sort in ascending order, integer 2 has been used and the performance of this execution is 1.6666666666666667
+    
+    
+    nearly Sorted -  To execute quick sort in nearly sorted order, integer 2 has been used and there is no  performance for this execution as array has not been sorted at element 3.
+    
+    
+    CONCLUSION : Quick Sort ascending is more effective in terms of performance when using integer 2 as the time taken to execute the sorting is more accurate.

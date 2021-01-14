@@ -1,0 +1,38 @@
+public abstract class DsaQ
+{
+    //class fields
+
+       public int counter;
+	private object[] q;
+
+      //ALTERNATE constructor imports maxCap - allocate q obj with maxCap
+	public DsaQ(int maxCap)
+ 	{
+          
+           q = new object[maxCap];
+           counter = 0;
+	}
+
+       //Accessor - getCounter
+       	public int getCounter()
+	{
+         
+	  return counter;
+	}
+	//mutator - enqueue()
+	public void enqueue(object value)
+	{
+           q[counter] = value;
+  	   counter++
+	} 
+        // mutator - dequeue()
+	public object dequeue()
+	{
+	   object firstVal;
+           firstVal = peek();
+	   int shufVal = 0;
+              counter--;
+              while(shufVal < counter)
+	      {
+		q
+	
